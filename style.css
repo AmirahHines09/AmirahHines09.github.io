@@ -1,54 +1,62 @@
-/* Portfolio styles */
-.content h1 {
-    color: black;
-  }
-  
-  #portfolio {
-    list-style-type: none;
-    padding-left: 0;
-  }
-  
-  #portfolio li {
-    background: #fff;
-    padding: 10px;
-    border-radius: 10px;
-    margin-bottom: 10px;
-  }
-  
-  #portfolio li:hover {
-    background: #eee;
-  }
-  
-  #portfolio a {
-    text-decoration: none;
-    color: #454545;
-  }
-  💡 Why Add CSS?
-  CSS makes your site look polished by controlling colors, layouts, and fonts. Styling helps create a better user experience.
-/* Portfolio styles */
-.content h1 {
-  color: black;
-}
-
-#portfolio {
-  list-style-type: none;
-  padding-left: 0;
-}
-
-#portfolio li {
-  background: #fff;
+body {
+  background: rgb(0, 255, 72);
+  color: rgb(0, 0, 0);
   padding: 10px;
-  border-radius: 10px;
-  margin-bottom: 10px;
+  font-family:'Times New Roman', Times, serif;
+}
+#all-contents {
+max-width: 800px;
+  margin: auto;
 }
 
-#portfolio li:hover {
-  background: #eee;
+/* navigation menu */
+nav {
+  background: rgb(185, 32, 215);
+ margin: 0 auto;
+  display: flex;
+  padding: 10px;
 }
-
-#portfolio a {
+h1 {
+  display: flex;
+  align-items: center;
+  color: white;
+  flex: 1;
+  margin: 0;
+}
+#nav-ul {
+  list-style-image: none;
+}
+.nav-li {
+  display: inline-block;
+  padding: 0 10px;
+}
+a {
   text-decoration: none;
-  color: #454545;
+  color: #fff;
 }
-💡 Why Add CSS?
-CSS makes your site look polished by controlling colors, layouts, and fonts. Styling helps create a better user experience.  
+
+/* main container area beneath menu */
+main {
+  background: rgb(245, 238, 219);
+  display: flex;
+}
+.sidebar {
+  margin-right: 25px;
+  padding: 10px;
+}
+.sidebar-img {
+  width: 200px;
+}
+.content {
+  flex: 1;
+  padding: 15px;
+}
+
+/* portfolio styles */
+#interests {
+  border: 4px silver ridge;
+  padding: 8px;
+}
+h2, h3 {
+  margin: 0px;
+}
