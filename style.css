@@ -1,9 +1,4 @@
-body {
-  background: rgb(0, 255, 72);
-  color: rgb(0, 0, 0);
-  padding: 10px;
-  font-family:'Times New Roman', Times, serif;
-}
+
 #all-contents {
 max-width: 800px;
   margin: auto;
@@ -36,9 +31,18 @@ a {
 }
 
 /* main container area beneath menu */
+
+body {
+  background: rgb(0, 255, 72);
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  font-family:'Times New Roman', Times, serif;
+}
+
 main {
-  background: rgb(245, 238, 219);
+  background: rgb(249, 249, 249);
   display: flex;
+  padding: 10px; 
 }
 .sidebar {
   margin-right: 25px;
