@@ -40,7 +40,7 @@ body {
 }
 
 main {
-  background: rgb(241, 238, 238);
+  background: rgb(11, 10, 10);
   display: flex;
   padding: 10px; 
 }
@@ -58,7 +58,7 @@ main {
 
 /* portfolio styles */
 #interests {
-  border: 4px rgb(9, 8, 8) ridge;
+  border: 4px rgb(224, 232, 224) ridge;
   padding: 8px;
 }
 h2, h3 {
